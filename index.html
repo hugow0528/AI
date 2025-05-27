@@ -753,7 +753,7 @@ user) => {
     <script>
         // Grok API Configuration
         const API_URL = "https://api.x.ai/v1/chat/completions";
-        const API_KEY = "xai-DSALjuMe7HTwfBE9Uz2N0guUlQdJ0IlnwZNzvxbr1WEAfVKyBy4LNIiKZXE9fN2i3dZo6COat6xFm5z4";
+        const apiKey = process.env.apikey;
         const MODEL = "grok-2-latest";
 // Subject-Specific System Prompts
 const SUBJECTS = {
